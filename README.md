@@ -52,20 +52,14 @@ Genera reportes con los resultados del análisis.
   - `scapy`
   - `paramiko`
 
-## Instalación
-
-Asegurate de tener Python3, Pip3 y Nmap instalados.
-Para instalar la herramienta solo sigue los pasos:
-`git clone https://github.com/Bixstr4w/VlnScan.git`
-`cd VlnScan/`
-`python3 vlnscan.py [options]`
-
-
-
-
-
 ## Dependencias
+Para instalarlas todas juntas solo ejecutamos este comando:
 `pip3 install -r requirements.txt`
+
+
+## Asegurate de tener Python3, Pip3 y Nmap instalados.
+### Ejecutar
+`python3 vlnscan.py [options]`
 
 
 
