@@ -39,7 +39,7 @@ Utilizo la biblioteca `Click` para crear una interfaz de línea de comandos amig
 Módulos separados para diferentes tipos de escaneos (puertos, servicios, configuraciones).
 
 ### Reportes
-Generar reportes con los resultados del análisis.
+Genera reportes con los resultados del análisis.
 
 ## Requisitos
 
@@ -54,41 +54,15 @@ Generar reportes con los resultados del análisis.
 
 ## Instalación
 
-### Windows
+Asegurate de tener Python3, Pip3 y Nmap instalados.
+Para instalar la herramienta solo sigue los pasos:
+`git clone https://github.com/Bixstr4w/VlnScan.git`
+`cd VlnScan/`
+`python3 vlnscan.py [options]`
 
-1. **Instalar Python y `pip`**
-   
-   Descarga e instala Python desde [python.org](https://www.python.org/downloads/). Asegúrate de marcar la opción "Add Python to PATH" durante la instalación.
 
-2. **Instalar `nmap`**
-   
-   Descarga e instala `nmap` desde [nmap.org](https://nmap.org/download.html). Asegúrate de agregar `nmap` a tu PATH durante la instalación.
 
-3. **Instalar las Dependencias**
-   
-   Abre un terminal (Command Prompt o PowerShell) y ejecuta:
-   `pip install click python-nmap requests scapy paramiko`
 
-### Linux y macOS
-
-#### Instalar Python y pip
-
-La mayoría de las distribuciones de Linux y macOS vienen con Python preinstalado. Muy importante que tengamos nmap instalado ya que la utilidad de python-nmap lo requiere. 
-
-**En Linux:**
-
-`sudo apt update
-sudo apt install python3 python3-pip`
-
-**En macOS:**
-`python3 -m ensurepip --upgrade`
-
-### Instalar nmap
-**En Linux:**
-`sudo apt install nmap`
-
-**En macOS:**
-`brew install nmap`
 
 ## Dependencias
 `pip3 install -r requirements.txt`
